@@ -15,6 +15,43 @@
 // Implement the compression algorithm described above
 
 
+/*
+
+func compress(_ input: String) -> String {
+  
+  var n = input.count
+  
+  for
+  
+  
+}
+
+func compress(Str :String) -> String {
+  
+  let n = str.count
+  var count = 0
+  var prevchar = nil
+  
+  for c in Str.chars {
+    
+    while (c < n - 1 && str[i] == prevchar){
+      
+      Count ++
+    }
+    
+    print()
+  }
+}
+
+
+func encode(input: String) -> [(Int, Character)] {
+    return input.characters.reduce([(Int, Character)]()) {
+        if $0.last?.1 == $1 { var r = $0; r[r.count - 1].0++; return r; }
+        return $0 + [(1, $1)]
+    }
+}
+*/
+
 
 import UIKit
 
